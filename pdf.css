@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f7f2;
+    color: #222;
+}
+
+header {
+    background: #146b35;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 8px 0 0;
+}
+
+main {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.upload-box,
+.pdf-list {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.upload-box {
+    text-align: center;
+    border: 2px dashed #3a8f50;
+}
+
+.upload-box h2,
+.pdf-list h2 {
+    color: #146b35;
+}
+
+#pdfInput {
+    display: none;
+}
+
+.upload-button {
+    display: inline-block;
+    background: #198754;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.upload-button:hover {
+    background: #126b40;
+}
+
+#fileName {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.pdf-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: #f3f8f4;
+    padding: 15px;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+.pdf-name {
+    font-weight: bold;
+    word-break: break-word;
+}
+
+.view-button {
+    background: #146b35;
+    color: white;
+    text-decoration: none;
+    padding: 9px 15px;
+    border-radius: 7px;
+    white-space: nowrap;
+}
+
+.empty {
+    text-align: center;
+    color: #777;
+}
+
+footer {
+    text-align: center;
+    background: #146b35;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}

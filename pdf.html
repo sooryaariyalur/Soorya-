@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>தமிழ்நாடு வனம் - PDF</title>
+    <link rel="stylesheet" href="pdf.css">
+</head>
+<body>
+    <header>
+        <h1>🌳 தமிழ்நாடு வனம்</h1>
+        <p>PDF ஆவணங்கள்</p>
+    </header>
+
+    <main>
+        <section class="upload-box">
+            <h2>PDF Upload</h2>
+            <p>PDF கோப்பை மட்டும் தேர்வு செய்யவும்</p>
+
+            <input type="file" id="pdfInput" accept=".pdf,application/pdf">
+
+            <label for="pdfInput" class="upload-button">
+                📄 PDF தேர்வு செய்க
+            </label>
+
+            <p id="fileName"></p>
+        </section>
+
+        <section class="pdf-list">
+            <h2>PDF ஆவணங்கள்</h2>
+            <div id="pdfContainer">
+                <p class="empty">இன்னும் PDF எதுவும் சேர்க்கப்படவில்லை.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 தமிழ்நாடு வனம்</p>
+    </footer>
+
+    <script src="pdf.js"></script>
+</body>
+</html>
